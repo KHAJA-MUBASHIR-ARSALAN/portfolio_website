@@ -6,28 +6,20 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('portfolio_app', '0014_alter_skill_options_skill_display_order'),
+        ("portfolio_app", "0014_alter_skill_options_skill_display_order"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='timelineentry',
-            name='link',
+            model_name="timelineentry",
+            name="link",
             field=models.URLField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='timelineentry',
-            name='link_image',
-            field=models.ImageField(blank=True, null=True, upload_to='timeline_link_images/'),
-        ),
-        migrations.AlterField(
-            model_name='timelineentry',
-            name='end_year',
-            field=models.DateField(blank=True, null=True),
-        ),
-        migrations.AlterField(
-            model_name='timelineentry',
-            name='start_year',
-            field=models.DateField(blank=True, null=True),
+            model_name="timelineentry",
+            name="link_image",
+            field=models.ImageField(
+                upload_to="timeline_link_images/", blank=True, null=True
+            ),
         ),
     ]

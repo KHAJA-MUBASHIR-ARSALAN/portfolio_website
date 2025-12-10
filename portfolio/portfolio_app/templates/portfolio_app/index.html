@@ -23,7 +23,7 @@
   "jobTitle": "Data Scientist, Full-Stack Developer",
   "sameAs": [
     "https://www.linkedin.com/in/khaja-mubashir-arsalan",
-    "https://github.com/Encrypted10"
+    "https://github.com/khaja-mubashir-arsalan"
   ]
 }
 </script>
@@ -50,14 +50,14 @@
       <a href="#projects">Projects</a>
       <a href="#certificates">Certificates</a>
       <!-- Add this inside your <div class="nav-menu" id="navMenu"> -->
-      <a href="{% static 'files/Resume.docx' %}" download="Khaja_Mubashir_Arsalan_Resume.docx">Download Resume</a>
+      <a href="{% static 'files/Data_Scientist.pdf' %}" download="Khaja_Mubashir_Arsalan_Resume.docx">Download Resume</a>
 
     </div>
 
     <!-- Social Icons -->
     <div class="nav-social">
       <a href="https://www.linkedin.com/in/khaja-mubashir-arsalan" class="social-link in">in</a>
-      <a href="https://github.com/Encrypted10" class="social-link be">Git-Hub</a>
+      <a href="https://github.com/khaja-mubashir-arsalan" class="social-link be">Git-Hub</a>
       <!-- <a href="#" class="social-link tw">&#xf099;</a> -->
     </div>
   </div>
@@ -111,7 +111,7 @@
         </div>
   
         <div class="about-text">
-          <p>{{ about.content }}</p>
+          <p>{{ about.content | safe }}</p>
         </div>
       </div>
       {% else %}
@@ -161,9 +161,9 @@
             {{ item.title }}
             {% if item.start_year %}
             (
-            {{ item.start_year }}
+            {{ item.get_start_date_display }}
             {% if item.end_year %}
-            – {{ item.end_year }}
+            – {{ item.get_end_date_display }}
             {% endif %}
             )
             {% endif %}
@@ -192,15 +192,14 @@
         <div class="timeline-content">
           <h3>
             {{ item.title }}
-           {% if item.start_year %}
-  (
-  {{ item.start_year }}
-  {% if item.end_year %}
-    – {{ item.end_year }}
-  {% endif %}
-  )
-{% endif %}
-
+            {% if item.start_year %}
+            (
+            {{ item.get_start_date_display }}
+            {% if item.end_year %}
+            – {{ item.get_end_date_display }}
+            {% endif %}
+            )
+            {% endif %}
             {% if item.organization %}
             <p>
               <strong>{{ item.organization }}</strong>
@@ -210,6 +209,7 @@
             </p>
             {% endif %}
           </h3>
+
           <p>{{ item.description }}</p>
         </div>
       </div>
@@ -279,7 +279,7 @@
     <div style="flex:1 1 200px; min-width:200px;">
       <h3 style="color:#fff; margin-bottom: 15px;">About Me</h3>
       <p style="line-height:1.6; font-size:0.95rem;">
-        I am khaja mubashir arsalan is a passionate <b>Data Scientist</b> and <b>Web Developer</b>. Dedicated to building impactful projects and learning new technologies.
+        I am khaja mubashir arsalan, a passionate <b>Data Scientist</b> and <b>Web Developer</b>. Dedicated to building impactful projects and learning new technologies.
       </p>
     </div>
 

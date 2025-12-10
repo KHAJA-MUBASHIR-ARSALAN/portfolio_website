@@ -1,0 +1,3681 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "skill"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "about"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "timelineentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "internship"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "contactmessage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "portfolio_app",
+    "model": "certificate"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ijki5rk9asup8svbp0fuzj6c9p8lahne",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln2-htKes5g7dprHECxlE-FuDtESgHtm5n3Egm3taVt4TmNRZyFFqffjTA_eNpBueN06zL3aZ1HkrsiD7rIay_8vBzu30HDpX3ranIIxfsaLOloFJqakQAdR1LEngBAxwFYYwRkVyyDJpUVKWtgcOL9AfHGN-A:1uqGSM:D_rOpIDOD0Esf1X6ku6ko4BoTUF6vZBKi0dJ2VYHnx8",
+    "expire_date": "2025-09-07T19:32:46.750Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qdq0ks3sxuwp97iedzey2wpsvhfmagw1",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln2-htKes5g7dprHECxlE-FuDtESgHtm5n3Egm3taVt4TmNRZyFFqffjTA_eNpBueN06zL3aZ1HkrsiD7rIay_8vBzu30HDpX3ranIIxfsaLOloFJqakQAdR1LEngBAxwFYYwRkVyyDJpUVKWtgcOL9AfHGN-A:1uxRch:8oPDCSslrZrRCo5U7Jqv2C3ggDSjJTwsipeyO6Wmb7w",
+    "expire_date": "2025-09-27T14:53:07.485Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uy814g2l3c6upd3hp5ho13684x1vasq0",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln2-htKes5g7dprHECxlE-FuDtESgHtm5n3Egm3taVt4TmNRZyFFqffjTA_eNpBueN06zL3aZ1HkrsiD7rIay_8vBzu30HDpX3ranIIxfsaLOloFJqakQAdR1LEngBAxwFYYwRkVyyDJpUVKWtgcOL9AfHGN-A:1ux2R9:ICD9ue4JaVRcNpjYuUlSesTlaPufvjJwtWGjVg575-w",
+    "expire_date": "2025-09-26T11:59:31.772Z"
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 13,
+  "fields": {
+    "name": "PYTHON",
+    "percentage": 60,
+    "color": "#4fcc2a",
+    "display_order": 1
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 14,
+  "fields": {
+    "name": "STATS",
+    "percentage": 75,
+    "color": "#4fcc2a",
+    "display_order": 2
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 15,
+  "fields": {
+    "name": "POWER BI",
+    "percentage": 85,
+    "color": "#4fcc2a",
+    "display_order": 3
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 16,
+  "fields": {
+    "name": "TABLEAU",
+    "percentage": 82,
+    "color": "#4fcc2a",
+    "display_order": 4
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 17,
+  "fields": {
+    "name": "ML",
+    "percentage": 75,
+    "color": "#4fcc2a",
+    "display_order": 5
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 18,
+  "fields": {
+    "name": "BIG DATA ANALYSIS",
+    "percentage": 50,
+    "color": "#4fcc2a",
+    "display_order": 6
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 19,
+  "fields": {
+    "name": "PYSPARK",
+    "percentage": 65,
+    "color": "#4fcc2a",
+    "display_order": 7
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 20,
+  "fields": {
+    "name": "HADOOP",
+    "percentage": 50,
+    "color": "#4fcc2a",
+    "display_order": 8
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 21,
+  "fields": {
+    "name": "DL",
+    "percentage": 75,
+    "color": "#4fcc2a",
+    "display_order": 9
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 25,
+  "fields": {
+    "name": "SQL",
+    "percentage": 80,
+    "color": "#4fcc2a",
+    "display_order": 12
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 26,
+  "fields": {
+    "name": "MONGO DB",
+    "percentage": 75,
+    "color": "#4fcc2a",
+    "display_order": 12
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 28,
+  "fields": {
+    "name": "HTML",
+    "percentage": 85,
+    "color": "#4fcc2a",
+    "display_order": 12
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 29,
+  "fields": {
+    "name": "CSS",
+    "percentage": 75,
+    "color": "#4fcc2a",
+    "display_order": 13
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 30,
+  "fields": {
+    "name": "JS",
+    "percentage": 50,
+    "color": "#4fcc2a",
+    "display_order": 14
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 31,
+  "fields": {
+    "name": "DJANGO",
+    "percentage": 65,
+    "color": "#4fcc2a",
+    "display_order": 15
+  }
+},
+{
+  "model": "portfolio_app.skill",
+  "pk": 34,
+  "fields": {
+    "name": "DATA ANALYSIS",
+    "percentage": 85,
+    "color": "#4fcc2a",
+    "display_order": 4
+  }
+},
+{
+  "model": "portfolio_app.about",
+  "pk": 4,
+  "fields": {
+    "content": "I am Khaja Mubashir Arsalan, an aspiring Data Scientist and Full-Stack Developer passionate about solving real-world problems through data-driven insights and scalable web solutions. Skilled in Machine Learning, Data Analysis, and Web Development, I specialize in building predictive models, creating interactive dashboards, and developing robust web applications. \r\n\r\nWith hands-on experience in Python, SQL, Django, Tableau, Power BI, and Machine Learning frameworks, I enjoy working on projects that combine data science and software engineering to deliver impactful solutions.",
+    "image": "about/passport_iywUgLW.jpg",
+    "updated_at": "2025-08-27T17:18:19.239Z"
+  }
+},
+{
+  "model": "portfolio_app.timelineentry",
+  "pk": 1,
+  "fields": {
+    "entry_type": "education",
+    "title": "BACHOLER'S",
+    "organization": "TKR COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "start_year": 2021,
+    "end_year": 2025,
+    "start_month": null,
+    "start_day": null,
+    "end_month": null,
+    "end_day": null,
+    "description": "I have completed my B.Tech in Computer Science Engineering from TKR College of Engineering and Technology. My academic journey helped me build a solid foundation in programming, problem-solving, and developing innovative solutions",
+    "icon_image": "timeline_icons/images_vrUJjkF.jpg",
+    "link": null,
+    "link_image": ""
+  }
+},
+{
+  "model": "portfolio_app.timelineentry",
+  "pk": 3,
+  "fields": {
+    "entry_type": "education",
+    "title": "INTERMEDIATE",
+    "organization": "DEEKSHA JUNIOR COLLEGE",
+    "start_year": 2019,
+    "end_year": 2021,
+    "start_month": null,
+    "start_day": null,
+    "end_month": null,
+    "end_day": null,
+    "description": "I have completed my Intermediate from Deeksha Junior College in the MPC stream, where I developed a strong foundation in Mathematics, which enhanced my analytical and problem-solving skills.",
+    "icon_image": "timeline_icons/unnamed_8vKRAi3.webp",
+    "link": null,
+    "link_image": ""
+  }
+},
+{
+  "model": "portfolio_app.timelineentry",
+  "pk": 4,
+  "fields": {
+    "entry_type": "education",
+    "title": "SSC",
+    "organization": "MOHAMMEDIA HIGH SCHOOL",
+    "start_year": 2008,
+    "end_year": 2019,
+    "start_month": null,
+    "start_day": null,
+    "end_month": null,
+    "end_day": null,
+    "description": "I have completed my Secondary School Certificate (SSC) from Mohammedia High School, which helped me build a strong academic foundation and develop essential learning skills.",
+    "icon_image": "timeline_icons/SCHOOL_pfMhfRf.jpg",
+    "link": null,
+    "link_image": ""
+  }
+},
+{
+  "model": "portfolio_app.timelineentry",
+  "pk": 5,
+  "fields": {
+    "entry_type": "experience",
+    "title": "DATA SCIENCE INTERN",
+    "organization": "COGNIFYZ",
+    "start_year": 2025,
+    "end_year": null,
+    "start_month": null,
+    "start_day": null,
+    "end_month": null,
+    "end_day": null,
+    "description": "I have completed my Data Science internship at Cognifyz Technologies, where I developed a Machine Learning model to predict restaurant ratings based on multiple independent variables. I used the Random Forest Regressor to achieve an accuracy of 85%, and after performing hyperparameter tuning, I successfully improved the model’s performance to around 89%.",
+    "icon_image": "timeline_icons/cognifyz.png",
+    "link": "https://www.linkedin.com/in/khaja-mubashir-arsalan",
+    "link_image": "timeline_link_images/Screenshot_2025-08-27_234447.png"
+  }
+},
+{
+  "model": "portfolio_app.timelineentry",
+  "pk": 6,
+  "fields": {
+    "entry_type": "experience",
+    "title": "WEB DEVELOPER",
+    "organization": "SYSTECH SOLUTIONS",
+    "start_year": 2024,
+    "end_year": null,
+    "start_month": null,
+    "start_day": null,
+    "end_month": null,
+    "end_day": null,
+    "description": "I have completed my internship at Systech Solutions as a Web Developer, where I developed the front-end of a recipe-sharing website using HTML, CSS, and JavaScript. This project helped me enhance my skills in responsive design, user interface development, and creating interactive web pages.",
+    "icon_image": "timeline_icons/systech.png",
+    "link": "https://www.linkedin.com/in/khaja-mubashir-arsalan",
+    "link_image": "timeline_link_images/Screenshot_2025-08-27_233622.png"
+  }
+},
+{
+  "model": "portfolio_app.timelineentry",
+  "pk": 7,
+  "fields": {
+    "entry_type": "experience",
+    "title": "FULL STACK DEVELOPER",
+    "organization": "EY",
+    "start_year": 2023,
+    "end_year": 2024,
+    "start_month": null,
+    "start_day": null,
+    "end_month": null,
+    "end_day": null,
+    "description": "I have completed my internship at EY as a Full Stack Developer, where I designed and developed an E-commerce website using Django, HTML, CSS, and JavaScript. I worked on implementing user authentication, product management, and gaining hands-on experience in building scalable and efficient web applications.",
+    "icon_image": "timeline_icons/ey_RcYgU0F.png",
+    "link": "https://www.linkedin.com/in/khaja-mubashir-arsalan",
+    "link_image": "timeline_link_images/Screenshot_2025-08-27_234610.png"
+  }
+},
+{
+  "model": "portfolio_app.profile",
+  "pk": 1,
+  "fields": {
+    "name": "KHAJA MUBASHIR ARSALAN",
+    "description": "Passionate Data Scientist and Full-Stack Developer with expertise in Machine Learning, Data Analysis, and Web Development. Skilled in Python, Django, SQL, and data visualization tools to build intelligent solutions. Experienced in developing predictive models, dashboards, and scalable web applications.",
+    "profile_image": "profile_images/WhatsApp_Image_2024-08-10_at_9.59.12_PM.jpeg",
+    "cta_text": "Let's get started ->",
+    "cta_link": null
+  }
+},
+{
+  "model": "portfolio_app.internship",
+  "pk": 1,
+  "fields": {
+    "name": "Google",
+    "logo": "internship_logos/google.png",
+    "display_order": 0
+  }
+},
+{
+  "model": "portfolio_app.internship",
+  "pk": 2,
+  "fields": {
+    "name": "EY",
+    "logo": "internship_logos/ey.png",
+    "display_order": 1
+  }
+},
+{
+  "model": "portfolio_app.internship",
+  "pk": 3,
+  "fields": {
+    "name": "Cognifyz",
+    "logo": "internship_logos/cognifyz.png",
+    "display_order": 2
+  }
+},
+{
+  "model": "portfolio_app.internship",
+  "pk": 4,
+  "fields": {
+    "name": "Systech",
+    "logo": "internship_logos/systech.png",
+    "display_order": 3
+  }
+},
+{
+  "model": "portfolio_app.project",
+  "pk": 1,
+  "fields": {
+    "title": "Residential house price prediction using machine learning",
+    "image": "project_images/Screenshot_2025-09-12_174531.png",
+    "link": "https://residential-house-price-prediction.onrender.com/",
+    "description": "Build a user-friendly web-application where user can predict the prices of residential houses located in Bangalore. Based on the user's input it calculate the price of the house. Prices will be vary depends upon the user's input figures. This application uses CATBOOST (advance machine learning ensemble algorithm) which gather weak learner to create a strong learner."
+  }
+},
+{
+  "model": "portfolio_app.project",
+  "pk": 4,
+  "fields": {
+    "title": "Restaurant rating prediction",
+    "image": "project_images/Screenshot_2025-09-12_180604.png",
+    "link": "https://restaurant-aggregate-rating-prediction.onrender.com/",
+    "description": "This application able to predict the restaurant rating depends upon the different factors. Based on that user can choose their specific restaurant. This application helpful for those user's who have not visited that specific restaurant yet and wanna know the ratings of that restaurant. This project uses advance machine learning ensemble technique called Random forest regressor for prediction."
+  }
+},
+{
+  "model": "portfolio_app.project",
+  "pk": 5,
+  "fields": {
+    "title": "CR selection voting system",
+    "image": "project_images/Screenshot_2025-09-12_175609_HcxhWFY.png",
+    "link": "https://cr-voting-system-using-django.onrender.com",
+    "description": "Build a secure web-application for online voting of CR's. This application reduce the complexity of voting and enhance the transparency. This application allow students to vote remotely, even though they're not in the college boundries. It increase efficiency, time saving and it capable to show live results of the poling."
+  }
+},
+{
+  "model": "portfolio_app.project",
+  "pk": 6,
+  "fields": {
+    "title": "Ecommerce website",
+    "image": "project_images/Screenshot_2025-09-12_174853_3QrVJlT.png",
+    "link": "https://quick-cross-ecommerce.onrender.com",
+    "description": "I developed a secure website for an e-commerce platform that enables users to search a wide variety of products while providing a live tracking system. Administrators can manage the entire inventory, and the system facilitates users in submitting valuable feedback to sellers, who receive this feedback directly via email."
+  }
+},
+{
+  "model": "portfolio_app.project",
+  "pk": 7,
+  "fields": {
+    "title": "Tailor billing web application",
+    "image": "project_images/Screenshot_2025-09-12_233437.png",
+    "link": "https://star-fashions.onrender.com/",
+    "description": "This application has been specifically developed for our client, who owns a tailoring shop. Previously, they relied on a traditional bill book to manage their records. The website is divided into two main sections: one for employees and one for the shop owner. Employees have access to the billing and record-keeping pages, while the admin can view a detailed Profit and Loss (P&L) page.\r\n\r\nThis website allows our client to manage their records in a modern and efficient manner. The admin can search for records based on bill numbers, and the ability to share invoices with customers via email and WhatsApp are among the outstanding features of this application."
+  }
+},
+{
+  "model": "portfolio_app.certificate",
+  "pk": 8,
+  "fields": {
+    "title": "FULLSTACK DEVELOPER",
+    "issuer": "EY",
+    "issue_date": "2024-01-31",
+    "certificate_image": "certificates/Screenshot_2025-08-27_233735.png"
+  }
+},
+{
+  "model": "portfolio_app.certificate",
+  "pk": 9,
+  "fields": {
+    "title": "CYBER SECURITY",
+    "issuer": "GOOGLE",
+    "issue_date": "2024-01-27",
+    "certificate_image": "certificates/Screenshot_2025-08-28_005427.png"
+  }
+},
+{
+  "model": "portfolio_app.certificate",
+  "pk": 10,
+  "fields": {
+    "title": "DATA SCIENCE",
+    "issuer": "Cognifyz",
+    "issue_date": "2025-08-04",
+    "certificate_image": "certificates/Screenshot_2025-08-27_234447.png"
+  }
+},
+{
+  "model": "portfolio_app.certificate",
+  "pk": 11,
+  "fields": {
+    "title": "NPTEL ELITE CERTIFICATION",
+    "issuer": "NPTEL",
+    "issue_date": "2024-02-01",
+    "certificate_image": "certificates/Screenshot_2025-08-28_005818.png"
+  }
+},
+{
+  "model": "portfolio_app.certificate",
+  "pk": 12,
+  "fields": {
+    "title": "CERTIFICATE OF PARTICIPATION",
+    "issuer": "PANTECH",
+    "issue_date": "2023-11-14",
+    "certificate_image": "certificates/Screenshot_2025-08-28_005942.png"
+  }
+},
+{
+  "model": "portfolio_app.certificate",
+  "pk": 13,
+  "fields": {
+    "title": "WEB DEVELOPER",
+    "issuer": "SYSTECH SOLUTIONS",
+    "issue_date": "2024-04-01",
+    "certificate_image": "certificates/Screenshot_2025-08-27_233622.png"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Skill",
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "codename": "add_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Skill",
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "codename": "change_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Skill",
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "codename": "delete_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Skill",
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "codename": "view_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add about",
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "codename": "add_about"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change about",
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "codename": "change_about"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete about",
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "codename": "delete_about"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view about",
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "codename": "view_about"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add timeline entry",
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "codename": "add_timelineentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change timeline entry",
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "codename": "change_timelineentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete timeline entry",
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "codename": "delete_timelineentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view timeline entry",
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "codename": "view_timelineentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add internship",
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "codename": "add_internship"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change internship",
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "codename": "change_internship"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete internship",
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "codename": "delete_internship"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view internship",
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "codename": "view_internship"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add profile",
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change profile",
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view profile",
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add project",
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change project",
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete project",
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view project",
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add contact message",
+    "content_type": [
+      "portfolio_app",
+      "contactmessage"
+    ],
+    "codename": "add_contactmessage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change contact message",
+    "content_type": [
+      "portfolio_app",
+      "contactmessage"
+    ],
+    "codename": "change_contactmessage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete contact message",
+    "content_type": [
+      "portfolio_app",
+      "contactmessage"
+    ],
+    "codename": "delete_contactmessage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view contact message",
+    "content_type": [
+      "portfolio_app",
+      "contactmessage"
+    ],
+    "codename": "view_contactmessage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add certificate",
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "codename": "add_certificate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change certificate",
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "codename": "change_certificate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete certificate",
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "codename": "delete_certificate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view certificate",
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "codename": "view_certificate"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$720000$XUFemYA3VJxxBJVaWmjV8c$qGTArHHbcC+l8HLUDl4MC9s5ORKskbN8C0oQIx1gq/g=",
+    "last_login": "2025-09-13T14:53:07.473Z",
+    "is_superuser": true,
+    "username": "mubashisrarsalan",
+    "first_name": "",
+    "last_name": "",
+    "email": "kmarsalan124@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-24T19:31:44.605Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-08-24T19:33:09.072Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "1",
+    "object_repr": "PYTHON (69%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-08-24T20:00:44.698Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "2",
+    "object_repr": "DJANGO (50%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-08-24T20:03:54.626Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "3",
+    "object_repr": "HTML (85%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-08-24T20:10:41.156Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "1",
+    "object_repr": "About Section",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-08-24T20:23:40.073Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "2",
+    "object_repr": "About Section",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-08-24T20:30:54.674Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "2",
+    "object_repr": "About Section",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-08-24T20:31:11.263Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "3",
+    "object_repr": "About Section",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-24T20:31:32.396Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "3",
+    "object_repr": "About Section",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-24T20:32:03.407Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "4",
+    "object_repr": "About Section",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-25T07:43:25.916Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "4",
+    "object_repr": "CSS (70%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-25T08:14:10.494Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "1",
+    "object_repr": "Education: BACHOLER'S",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-25T08:44:10.457Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "2",
+    "object_repr": "Experience: INTERNSHIP",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-25T09:33:09.388Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "object_id": "1",
+    "object_repr": "KHAJA MUBASHIR ARSALAN",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-25T09:33:47.949Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "object_id": "1",
+    "object_repr": "Google",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-25T09:34:04.997Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "object_id": "2",
+    "object_repr": "EY",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-25T09:34:28.097Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "object_id": "3",
+    "object_repr": "Cognifyz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-25T09:34:39.632Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "internship"
+    ],
+    "object_id": "4",
+    "object_repr": "Systech",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-25T10:23:19.772Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "sales billing",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-25T10:36:26.424Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "Ecommerce website",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-27T08:42:20.358Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "1",
+    "object_repr": "Internship (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-27T08:44:13.746Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "1",
+    "object_repr": "Internship (Cognifyz)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-27T08:44:52.612Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "2",
+    "object_repr": "internship (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-27T09:13:42.040Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "2",
+    "object_repr": "internship (Cognifyz)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-27T09:15:00.669Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "3",
+    "object_repr": "Internship (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-27T09:16:19.646Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "4",
+    "object_repr": "internship (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-08-27T09:16:44.152Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "5",
+    "object_repr": "internships (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-08-27T09:17:00.920Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "6",
+    "object_repr": "internships (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-08-27T11:06:51.788Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "7",
+    "object_repr": "internship (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-08-27T11:35:29.274Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "5",
+    "object_repr": "machine learning (70%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-08-27T16:18:05.885Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "6",
+    "object_repr": "HADOOP (70%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-08-27T16:18:16.658Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "7",
+    "object_repr": "PYSPARK (65%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-08-27T16:18:26.262Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "8",
+    "object_repr": "deep learning (50%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-08-27T16:18:34.569Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "9",
+    "object_repr": "Javascript (50%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-08-27T16:18:44.444Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "10",
+    "object_repr": "ai (65%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-08-27T16:57:18.580Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "11",
+    "object_repr": "communication (40%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.346Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "11",
+    "object_repr": "communication (40%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.356Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "10",
+    "object_repr": "ai (65%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.369Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "9",
+    "object_repr": "Javascript (50%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.378Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "8",
+    "object_repr": "deep learning (50%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.388Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "7",
+    "object_repr": "PYSPARK (65%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.396Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "6",
+    "object_repr": "HADOOP (70%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.404Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "5",
+    "object_repr": "machine learning (70%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.411Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "4",
+    "object_repr": "CSS (70%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.420Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "3",
+    "object_repr": "HTML (85%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.431Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "2",
+    "object_repr": "DJANGO (50%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-08-27T16:57:57.436Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "1",
+    "object_repr": "PYTHON (69%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-08-27T16:58:11.848Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "12",
+    "object_repr": "communication (10%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-08-27T16:58:22.965Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "13",
+    "object_repr": "PYTHON (60%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-08-27T16:58:31.824Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "14",
+    "object_repr": "STATISTICS (75%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-08-27T16:58:46.015Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "15",
+    "object_repr": "POWER BI (85%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-08-27T16:59:03.177Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "16",
+    "object_repr": "TABLEAU (82%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-08-27T17:03:04.292Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "17",
+    "object_repr": "MACHINE LEARNING (75%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-08-27T17:03:25.450Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "18",
+    "object_repr": "BIG DATA ANALYSIS (50%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-08-27T17:04:00.415Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "19",
+    "object_repr": "PYSPARK (65%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-08-27T17:04:16.772Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "20",
+    "object_repr": "HADOOP (50%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-08-27T17:05:09.897Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "21",
+    "object_repr": "DEEP LEARNING (75%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-08-27T17:05:51.604Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "22",
+    "object_repr": "HTML (85%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-08-27T17:06:02.281Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "23",
+    "object_repr": "CSS (75%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-08-27T17:06:18.030Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "24",
+    "object_repr": "JAVASCRIPT (50%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-08-27T17:06:36.638Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "25",
+    "object_repr": "SQL (80%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-08-27T17:06:53.970Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "26",
+    "object_repr": "MONGO DB (75%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-08-27T17:07:39.486Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "27",
+    "object_repr": "DJANGO (60%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-08-27T17:08:36.090Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "22",
+    "object_repr": "HTML (85%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-08-27T17:08:36.110Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "23",
+    "object_repr": "CSS (75%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-08-27T17:08:36.118Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "27",
+    "object_repr": "DJANGO (60%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-08-27T17:08:36.126Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "24",
+    "object_repr": "JAVASCRIPT (50%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-08-27T17:08:49.112Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "12",
+    "object_repr": "communication (10%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-08-27T17:09:49.059Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "28",
+    "object_repr": "HTML (85%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-08-27T17:10:01.475Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "29",
+    "object_repr": "CSS (75%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-08-27T17:10:14.709Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "30",
+    "object_repr": "JAVASCRIPT (50%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-08-27T17:10:35.789Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "31",
+    "object_repr": "DJANGO (65%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-08-27T17:10:57.707Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "32",
+    "object_repr": "DATA ANALYSIS (85%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-08-27T17:11:30.566Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "32",
+    "object_repr": "DATA ANALYSIS (85%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-08-27T17:11:55.950Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "33",
+    "object_repr": "DATA ANALYSIS (85%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-08-27T17:12:27.700Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "33",
+    "object_repr": "DATA ANALYSIS (85%)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-08-27T17:12:40.985Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "34",
+    "object_repr": "DATA ANALYSIS (85%)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-08-27T17:17:25.343Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "4",
+    "object_repr": "About Section",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-08-27T17:17:57.761Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "4",
+    "object_repr": "About Section",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-08-27T17:18:19.241Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "about"
+    ],
+    "object_id": "4",
+    "object_repr": "About Section",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-08-27T17:23:33.064Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "1",
+    "object_repr": "Education: BACHOLER'S",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Icon image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-08-27T17:26:57.913Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "3",
+    "object_repr": "Education: INTERMEDIATE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-08-27T17:29:52.997Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "4",
+    "object_repr": "Education: SSC",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-08-27T17:34:09.744Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "2",
+    "object_repr": "Experience: INTERNSHIP",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Icon image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-08-27T17:34:51.380Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "2",
+    "object_repr": "Experience: INTERNSHIP",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-08-27T17:40:31.521Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "5",
+    "object_repr": "Experience: DATA SCIENCE INTERN",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-08-27T17:43:43.374Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "6",
+    "object_repr": "Experience: WEB DEVELOPER",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-08-27T17:46:16.182Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "7",
+    "object_repr": "Experience: FULL STACK DEVELOPER",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-08-27T18:00:38.081Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "5",
+    "object_repr": "Experience: DATA SCIENCE INTERN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\", \"End year\", \"Link image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-08-27T18:00:59.055Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "5",
+    "object_repr": "Experience: DATA SCIENCE INTERN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Link\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-08-27T18:12:22.613Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "6",
+    "object_repr": "Experience: WEB DEVELOPER",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\", \"End year\", \"Link\", \"Link image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-08-27T18:15:14.335Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "5",
+    "object_repr": "Experience: DATA SCIENCE INTERN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Link image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-08-27T18:15:26.751Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "6",
+    "object_repr": "Experience: WEB DEVELOPER",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Link\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-08-27T18:17:06.510Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "7",
+    "object_repr": "Experience: FULL STACK DEVELOPER",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\", \"End year\", \"Link\", \"Link image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-08-27T18:23:09.862Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "5",
+    "object_repr": "Experience: DATA SCIENCE INTERN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\", \"End year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-08-27T18:24:02.152Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "5",
+    "object_repr": "Experience: DATA SCIENCE INTERN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-08-27T18:24:46.357Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "5",
+    "object_repr": "Experience: DATA SCIENCE INTERN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-08-27T18:26:20.660Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "8",
+    "object_repr": "Experience: internship",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-08-27T18:26:41.675Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "8",
+    "object_repr": "Experience: internship",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"End year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-08-27T18:30:08.899Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "8",
+    "object_repr": "Experience: internship",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-08-27T18:30:56.642Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "6",
+    "object_repr": "Experience: WEB DEVELOPER",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\", \"End year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-08-27T18:31:11.319Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "timelineentry"
+    ],
+    "object_id": "7",
+    "object_repr": "Experience: FULL STACK DEVELOPER",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Start year\", \"End year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-08-27T19:12:57.247Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "object_id": "1",
+    "object_repr": "KHAJA MUBASHIR ARSALAN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-08-27T19:13:34.164Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "object_id": "1",
+    "object_repr": "KHAJA MUBASHIR ARSALAN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-08-27T19:15:37.577Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "profile"
+    ],
+    "object_id": "1",
+    "object_repr": "KHAJA MUBASHIR ARSALAN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-08-27T19:19:43.495Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "7",
+    "object_repr": "internship (Cognifyz)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-08-27T19:19:43.511Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "6",
+    "object_repr": "internships (Cognifyz)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-08-27T19:19:43.517Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "5",
+    "object_repr": "internships (Cognifyz)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-08-27T19:19:43.530Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "4",
+    "object_repr": "internship (Cognifyz)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-08-27T19:19:43.537Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "3",
+    "object_repr": "Internship (Cognifyz)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-08-27T19:23:19.372Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "8",
+    "object_repr": "FULLSTACK DEVELOPER (EY)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-08-27T19:25:18.014Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "9",
+    "object_repr": "CYBER SECURITY (GOOGLE)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-08-27T19:26:21.129Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "10",
+    "object_repr": "DATA SCIENCE (Cognifyz)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-08-27T19:28:47.477Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "11",
+    "object_repr": "NPTEL ELITE CERTIFICATION (NPTEL)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-08-27T19:30:45.264Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "12",
+    "object_repr": "CERTIFICATE OF PARTICIPATION (PANTECH)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-08-27T19:31:31.294Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "certificate"
+    ],
+    "object_id": "13",
+    "object_repr": "WEB DEVELOPER (SYSTECH SOLUTIONS)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-08-28T07:00:30.842Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "30",
+    "object_repr": "JS (50%)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-08-28T07:00:41.804Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "14",
+    "object_repr": "STATS (75%)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-08-28T07:00:51.885Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "17",
+    "object_repr": "ML (75%)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-08-28T07:01:00.259Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "21",
+    "object_repr": "DL (75%)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-09-12T12:19:19.567Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "Ecommerce website",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Link\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-09-12T12:24:29.222Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Residential house price prediction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Image\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-09-12T12:31:27.754Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "CR selection voting system",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-09-12T12:32:43.656Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Residential house price prediction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Link\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-09-12T12:40:04.171Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Restaurant rating prediction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-09-12T12:41:06.762Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Restaurant rating prediction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-09-12T12:41:55.709Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "CR selection voting system",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-09-12T12:44:00.971Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Residential house price prediction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-09-12T12:44:21.767Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Residential house price prediction using machine learning",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-09-12T12:45:50.005Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "CR selection voting system",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-09-12T12:45:50.014Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "Ecommerce website",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-09-12T12:47:03.437Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "CR selection voting system",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-09-12T12:53:51.535Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "Ecommerce website",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-09-12T12:58:19.077Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "26",
+    "object_repr": "MONGO DB (75%)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Display order\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-09-12T12:58:34.896Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "skill"
+    ],
+    "object_id": "26",
+    "object_repr": "MONGO DB (75%)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Display order\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-09-12T13:02:17.482Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Restaurant rating prediction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-09-13T15:05:37.922Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "7",
+    "object_repr": "Tailor billing web application",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-09-13T15:06:36.014Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "7",
+    "object_repr": "Tailor billing web application",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-09-13T15:08:14.432Z",
+    "user": [
+      "mubashisrarsalan"
+    ],
+    "content_type": [
+      "portfolio_app",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "Ecommerce website",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+}
+]

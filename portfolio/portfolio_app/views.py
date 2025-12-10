@@ -23,8 +23,8 @@ import os
 def portfolio(request):
     skills = Skill.objects.all()
     about = About.objects.first()
-    education = TimelineEntry.objects.filter(entry_type="education").order_by('-start_year')
-    experience = TimelineEntry.objects.filter(entry_type="experience").order_by('-start_year')
+    education = TimelineEntry.objects.filter(entry_type="education")
+    experience = TimelineEntry.objects.filter(entry_type="experience")
     profile = Profile.objects.first()
     internships = Internship.objects.all()
     projects = Project.objects.all()

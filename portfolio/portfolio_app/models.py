@@ -40,20 +40,51 @@ class TimelineEntry(models.Model):
     entry_type = models.CharField(max_length=16, choices=ENTRY_TYPE_CHOICES)
     title = models.CharField(max_length=255)
     organization = models.CharField(max_length=255, blank=True)
+
+    # Keep year nullable in DB (we'll enforce in forms)
     start_year = models.PositiveIntegerField(blank=True, null=True)
     end_year = models.PositiveIntegerField(blank=True, null=True)
+
+    # New optional fields for month/day
+    start_month = models.PositiveIntegerField(blank=True, null=True)
+    start_day = models.PositiveIntegerField(blank=True, null=True)
+    end_month = models.PositiveIntegerField(blank=True, null=True)
+    end_day = models.PositiveIntegerField(blank=True, null=True)
+
     description = models.TextField(blank=True)
     icon_image = models.ImageField(upload_to='timeline_icons/', blank=True, null=True)
-    
-    # New fields:
-    link = models.URLField(blank=True, null=True)  # external or internal URL
-    link_image = models.ImageField(upload_to='timeline_link_images/', blank=True, null=True)  # Image to show when link clicked
+
+    link = models.URLField(blank=True, null=True)
+    link_image = models.ImageField(upload_to='timeline_link_images/', blank=True, null=True)
 
     class Meta:
-        ordering = ["-start_year", "-end_year"]
+        ordering = [
+            "-end_year", "-end_month", "-end_day",
+            "-start_year", "-start_month", "-start_day",
+            "-id",  # tiebreaker
+        ]
 
     def __str__(self):
         return f"{self.get_entry_type_display()}: {self.title}"
+
+    def get_start_date_display(self):
+        if self.start_day and self.start_month and self.start_year:
+            return f"{self.start_day:02d}/{self.start_month:02d}/{self.start_year}"
+        if self.start_month and self.start_year:
+            return f"{self.start_month:02d}/{self.start_year}"
+        if self.start_year:
+            return f"{self.start_year}"
+        return ""
+
+    def get_end_date_display(self):
+        if not self.end_year:
+            return "Present"
+        if self.end_day and self.end_month:
+            return f"{self.end_day:02d}/{self.end_month:02d}/{self.end_year}"
+        if self.end_month:
+            return f"{self.end_month:02d}/{self.end_year}"
+        return f"{self.end_year}"
+
     
 
 
@@ -94,11 +125,18 @@ class Project(models.Model):
 
     
 class Certificate(models.Model):
-    title = models.CharField(max_length=255)  # Certificate name [web:5]
-    issuer = models.CharField(max_length=255)  # Organization or authority [web:5]
-    issue_date = models.DateField()  # Date issued [web:5]
+    title = models.CharField(max_length=255)
+    issuer = models.CharField(max_length=255)
+    issue_date = models.DateField()
 
-    certificate_image = models.ImageField(upload_to='certificates/', blank=True, null=True)  # Optional image file [web:5]
+    certificate_image = models.ImageField(
+        upload_to='certificates/',
+        blank=True,
+        null=True
+    )
+
+    class Meta:
+        ordering = ["-issue_date"]  # ✅ Latest certificate on top
 
     def __str__(self):
         return f"{self.title} ({self.issuer})"

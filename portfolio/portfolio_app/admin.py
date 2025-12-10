@@ -15,7 +15,7 @@ class AboutAdmin(admin.ModelAdmin):
 
 @admin.register(TimelineEntry)
 class TimelineEntryAdmin(admin.ModelAdmin):
-    list_display = ('title', 'entry_type', 'organization', 'start_year', 'end_year')
+    list_display = ('title', 'entry_type', 'organization','start_day','start_month', 'start_year', 'end_day','end_month','end_year')
     list_filter = ('entry_type',)
     search_fields = ('title', 'organization', 'description')
 

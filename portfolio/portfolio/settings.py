@@ -84,12 +84,39 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+# DATABASES = {
+#     # 'default': {  # still SQLite for now
+#     #     'ENGINE': 'django.db.backends.sqlite3',
+#     #     'NAME': BASE_DIR / 'db.sqlite3',
+#     # },
+#         'postgres': {  # new: your Render PostgreSQL
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'portfolio_db_al98',
+#         'USER': 'portfolio_db_al98_user',
+#         'PASSWORD': 'jjQ6GbFbPPT2BKUkZRGllQJF9GZ406DQ',
+#         'HOST': 'dpg-d4sjas49c44c73enu300-a.singapore-postgres.render.com',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'portfolio_db_al98',
+        'USER': 'portfolio_db_al98_user',
+        'PASSWORD': 'jjQ6GbFbPPT2BKUkZRGllQJF9GZ406DQ',
+        'HOST': 'dpg-d4sjas49c44c73enu300-a.singapore-postgres.render.com',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
