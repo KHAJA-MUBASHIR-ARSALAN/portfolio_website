@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 from pathlib import Path
 from django.contrib.sitemaps import Sitemap
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -91,33 +92,13 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     # 'default': {  # still SQLite for now
-#     #     'ENGINE': 'django.db.backends.sqlite3',
-#     #     'NAME': BASE_DIR / 'db.sqlite3',
-#     # },
-#         'postgres': {  # new: your Render PostgreSQL
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'portfolio_db_al98',
-#         'USER': 'portfolio_db_al98_user',
-#         'PASSWORD': 'jjQ6GbFbPPT2BKUkZRGllQJF9GZ406DQ',
-#         'HOST': 'dpg-d4sjas49c44c73enu300-a.singapore-postgres.render.com',
-#         'PORT': '5432',
-#     }
-# }
+
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'portfolio_db_al98',
-        'USER': 'portfolio_db_al98_user',
-        'PASSWORD': 'jjQ6GbFbPPT2BKUkZRGllQJF9GZ406DQ',
-        'HOST': 'dpg-d4sjas49c44c73enu300-a.singapore-postgres.render.com',
-        'PORT': '5432',
-    }
+    'default': dj_database_url.config(
+        default=os.getenv("DATABASE_URL")
+    )
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
