@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arsalan-portfolio.onrender.com/sitemap.xml
